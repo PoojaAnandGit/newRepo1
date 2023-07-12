@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+services:
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.328
+- serviceName: edge.newprojectt.integrations:testEdgeExec
+  packages:
+  - name: EdgeNewProjectT
+    version: "1.0"
